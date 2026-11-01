@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffeff5">
+<title>فائزه جان، تولدت مبارک 💗</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+:root{--pink:#ff6f9f;--deep:#b83268;--cream:#fff8f3;--ink:#53263d}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:'Vazirmatn',Tahoma,sans-serif;color:var(--ink);background:radial-gradient(circle at 15% 10%,#ffe0eb 0,transparent 28%),radial-gradient(circle at 85% 30%,#ffe9d8 0,transparent 30%),linear-gradient(135deg,#fff8f7,#fff0f5);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(#e88bab 1px,transparent 1px);background-size:22px 22px;z-index:-1}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:36px 18px;position:relative}
+.card{width:min(760px,100%);padding:clamp(28px,6vw,64px) clamp(20px,5vw,54px);border:1px solid #ffffffc9;border-radius:34px;background:#ffffffb8;backdrop-filter:blur(12px);box-shadow:0 24px 80px #bd54751c;position:relative;overflow:hidden}
+.eyebrow{display:inline-block;background:#ffe2ec;color:#b83f70;border-radius:999px;padding:8px 17px;font-size:14px;font-weight:700}
+h1{font-size:clamp(38px,8vw,76px);line-height:1.25;margin:20px 0 12px;color:#c43c75;font-weight:900;text-shadow:0 5px 0 #ffe0eb}
+.name{display:block;color:#8e3b74}
+.subtitle{font-size:clamp(16px,3vw,21px);line-height:2;color:#795366;margin:14px auto 26px;max-width:560px}
+.big-heart{font-size:54px;display:inline-block;animation:beat 1.3s infinite}
+@keyframes beat{50%{transform:scale(1.18)}}
+.btn{border:0;border-radius:999px;padding:14px 25px;font:700 16px inherit;font-family:inherit;cursor:pointer;background:linear-gradient(120deg,#ff79a7,#e64f8c);color:white;box-shadow:0 9px 22px #e64f8c40;transition:.2s}
+.btn:hover{transform:translateY(-3px)}
+section{padding:70px 18px;text-align:center}
+.section-title{font-size:clamp(27px,5vw,42px);color:#b83f70;margin:0 0 12px}
+.section-lead{color:#866476;margin:0 auto 30px;max-width:600px;line-height:2}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px;width:min(960px,100%);margin:auto}
+.tile{background:#ffffffc9;border:1px solid #fff;border-radius:24px;padding:25px 20px;box-shadow:0 12px 35px #a84d6b12}
+.tile .emoji{font-size:38px}.tile h3{margin:10px 0 6px;color:#b83f70}.tile p{margin:0;line-height:1.9;color:#795f70}
+.letter{width:min(720px,100%);margin:auto;background:#fffdfb;border:1px dashed #ee9ab8;border-radius:26px;padding:clamp(24px,5vw,45px);line-height:2.2;font-size:17px;box-shadow:0 15px 45px #a84d6b12}
+.wish{background:linear-gradient(130deg,#ffdeea,#fff0df);border-radius:28px;padding:34px 20px;width:min(850px,100%);margin:auto}
+footer{text-align:center;padding:30px 15px 50px;color:#a06a83}
+.float{position:absolute;opacity:.8;animation:drift 6s ease-in-out infinite;font-size:28px}
+.f1{top:9%;left:9%}.f2{top:20%;right:8%;animation-delay:1s}.f3{bottom:12%;left:13%;animation-delay:2s}.f4{bottom:18%;right:10%;animation-delay:1.5s}
+@keyframes drift{50%{transform:translateY(-18px) rotate(12deg)}}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:9}
+.sparkle{display:inline-block;animation:twinkle 1.8s infinite alternate}
+@keyframes twinkle{to{transform:scale(1.25) rotate(15deg);opacity:.55}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<canvas id="confetti"></canvas>
+<header class="hero">
+  <span class="float f1">🌷</span><span class="float f2">✨</span><span class="float f3">🎀</span><span class="float f4">💗</span>
+  <main class="card">
+    <div class="eyebrow">یک روز قشنگ برای یک آدم قشنگ</div>
+    <div class="big-heart">💖</div>
+    <h1>فائزه جان،<span class="name">تولدت مبارک!</span></h1>
+    <p class="subtitle">امروز بهونه‌ایه برای اینکه بهت بگیم چقدر بودنت قشنگه. امیدوارم سال جدید زندگیت پر از خنده‌های از ته دل، اتفاق‌های شیرین و آرزوهای برآورده‌شده باشه.</p>
+    <button class="btn" onclick="celebrate()">برای سورپرایز کلیک کن 🎉</button>
+  </main>
+</header>
+
+<section>
+  <h2 class="section-title">آرزوهای من برای تو <span class="sparkle">✨</span></h2>
+  <p class="section-lead">فائزه‌ی عزیز، از ته قلبم آرزو می‌کنم همیشه دلیل لبخندت بیشتر از دلیل ناراحتیت باشه.</p>
+  <div class="grid">
+    <article class="tile"><div class="emoji">🌈</div><h3>روزهای رنگی</h3><p>پر از خبرهای خوب، تجربه‌های تازه و لحظه‌های به‌یادموندنی.</p></article>
+    <article class="tile"><div class="emoji">🦋</div><h3>آرزوهای بزرگ</h3><p>شجاعت دنبال کردن رویاهایی که ته دلت قایم کردی.</p></article>
+    <article class="tile"><div class="emoji">💐</div><h3>عشق و آرامش</h3><p>آدم‌های مهربون کنار تو و دلی همیشه آروم و خوشحال.</p></article>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">یه نامه کوچولو برای تو 💌</h2>
+  <div class="letter">
+    فائزه جانم،<br>
+    شاید هیچ هدیه‌ای نتونه به اندازه‌ی خودت قشنگ باشه، ولی خواستم این گوشه‌ی کوچیک از اینترنت فقط برای تو باشه؛ برای لبخندت و برای روز خاصت. امیدوارم همیشه بدرخشی، به خودت افتخار کنی و هیچ‌وقت یادت نره که چقدر دوست‌داشتنی هستی.<br>
+    <strong style="color:#c43c75">تولدت هزار بار مبارک، دختر قشنگ! 💗</strong>
+  </div>
+</section>
+
+<section>
+  <div class="wish">
+    <div style="font-size:44px">🎂🎈🎁</div>
+    <h2 class="section-title">امروز روز توئه فائزه!</h2>
+    <p class="section-lead" style="margin-bottom:22px">یه نفس عمیق بکش، یه آرزو کن و با لبخند به استقبال بهترین سالت برو.</p>
+    <button class="btn" onclick="celebrate()">ببارونش با قلب و ستاره! 💕</button>
+  </div>
+</section>
+<footer>با کلی عشق، برای فائزه جان 💗</footer>
+<script>
+const canvas=document.getElementById('confetti'),ctx=canvas.getContext('2d');let bits=[],running=false;
+function resize(){canvas.width=innerWidth*devicePixelRatio;canvas.height=innerHeight*devicePixelRatio;ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0)}
+addEventListener('resize',resize);resize();
+function celebrate(){
+  const symbols=['💗','✨','🌸','🎀','💕','⭐'];
+  for(let i=0;i<95;i++)bits.push({x:Math.random()*innerWidth,y:-20-Math.random()*innerHeight*.5,v:2+Math.random()*4,s:14+Math.random()*17,a:Math.random()*6,sym:symbols[Math.floor(Math.random()*symbols.length)],r:(Math.random()-.5)*.08});
+  if(!running){running=true;requestAnimationFrame(draw)}
+}
+function draw(){ctx.clearRect(0,0,innerWidth,innerHeight);bits.forEach(b=>{ctx.save();ctx.translate(b.x,b.y);ctx.rotate(b.a);ctx.font=b.s+'px serif';ctx.fillText(b.sym,0,0);ctx.restore();b.y+=b.v;b.x+=Math.sin(b.y/35)*1.1;b.a+=b.r});bits=bits.filter(b=>b.y<innerHeight+40);if(bits.length)requestAnimationFrame(draw);else running=false}
+</script>
+</body></html>
